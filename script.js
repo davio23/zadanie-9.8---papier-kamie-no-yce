@@ -31,7 +31,7 @@ function setGameElements() {
 			resultsElem.style.display = 'block';
 			break;
 		case 'ended':
-			newGameBtn.innerText = 'Jeszcze raz';
+			newGameBtn.innerText = 'Play again';
 		case 'notStarted':
 		default:
         newGameElem.style.display = 'block';
@@ -104,7 +104,7 @@ function checkRoundWinner(playerPick, computerPick) {
 		 computer.score++;
 		 setGamePoints();
     }
-  sprawdzczyktoswygral(); 
+  sprawdzczyktoswygral(); //uruchamia funckje sprawdzania czy ktos wygral
 }
 
 function setGamePoints() {
